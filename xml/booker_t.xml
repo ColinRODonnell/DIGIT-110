@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <header><title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author>
+    <metadata><title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author>
         <dateline><month>June</month>
             <day>1</day>
             <year>1941</year></dateline>
-    </header>
-    <!--Booker T. Washington rose from slavery to become one of the most influential speakers for the African 
+    </metadata>
+    <!--Booker T. Washington (1856-1915) rose from slavery to become one of the most influential speakers for the African 
     American community. He founded an led the the Tuskegee Normal and the Industrial Insitute.-->
-    <page5>
+    <page>
         <line>Booker T.</line>
         <line>Was a practical man. </line>
         <line>He said, Till the soil</line>
         <line>And learn from the land. </line>
         <line>Let down your bucket </line>
-        <stamp color="red" text="The Library of Congress"/>
+       <!-- I was asked to update my code so that it showed the "diff" in GitHub-->
+        <stamp color="red" quality="faded" alignment="right"  text="The Library of Congress"/>
         <line>Where you are. </line>
         <line>Your fate is here </line>
         <line>And not afar.</line>
@@ -56,11 +57,11 @@
         <line>And not afar, </line>
         <line>So let down your bucket </line>
         <line>Where you are.</line>
-    </page5>
+    </page>
 
 
     <metadata>
-        <signature id="cursive">LANGSTON HUGHES</signature>
+        <signature ink="black" id="cursive">LANGSTON HUGHES</signature>
         <title>Final Draft,</title>
         <address>Hollow Hills Farm, Monterey, California</address>
         <dateline>
