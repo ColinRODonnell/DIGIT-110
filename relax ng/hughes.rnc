@@ -1,0 +1,13 @@
+start = xml
+xml = element xml {source,poem}
+source = element source {title,author,date}
+#has to be book OR inner with "" 
+title = element title {attribute level { "book" | "inner" },text}
+author = element author {text}
+date = element date {attribute when {text}}
+poem = element poem {title,lg+}
+lg = element lg {ln+}
+ln = element ln {attribute n {text},(text | placeName | place | motif)}
+placeName = element placeName {attribute ref { text },text}
+place = element place {attribute ref {text},text}
+motif = element motif {text}
