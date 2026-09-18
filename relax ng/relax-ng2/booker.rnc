@@ -1,0 +1,17 @@
+start = root
+root = element root {metadata,page,metadata}
+metadata = element metadata {(element title {text},text,element author {text},dateline)
+|
+#There is 2 separate metadate sections, so I made it where it finds one or the other. 
+(signature,element title { text },element address { text },dateline)}
+dateline = element dateline {element month {text},element day {text},element year {text}}
+page = element page {(line | stamp)*}
+line = element line {text}
+#for red stamp thing in the middle of the page. 
+stamp = element stamp {
+    attribute color {text },
+    attribute quality { text},
+    attribute alignment { text },
+    attribute text { text }}
+#end of stamp
+signature = element signature {attribute ink { text },attribute id {text },text}

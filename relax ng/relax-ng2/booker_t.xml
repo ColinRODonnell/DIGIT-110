@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../relax%20ng/relax-ng2/booker.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="booker.rnc" type="application/relax-ng-compact-syntax"?>
 <root>
     <metadata><title>BALLAD OF BOOKER T.</title> by <author>Langston Hughes</author>
         <dateline><month>June</month>
