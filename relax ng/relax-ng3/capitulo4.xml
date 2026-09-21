@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="capitulo.rnc" type="application/relax-ng-compact-syntax"?>
+<raiz>
+    <metadata>
+        <nombre>Colin O’Donnell</nombre>
+        <profesor>DeStephano </profesor>
+        <clase id="medical spanish">SPAN300B</clase>
+        <fecha>
+            <dia>20</dia>
+            <mes>09</mes>
+            <año>2026</año>
+        </fecha>
+        <pagina>1</pagina>
+    </metadata>
+
+    <capitulo id="4th">Sexualidad y la comunidad latinx</capitulo>
+
+    <tarea>
+        <instrucciones n="1">Usando tus propias palabras, explica cuales son las causes, síntomas,
+            formas de prevención y factores de riesgo del cáncer de cuello uterino.</instrucciones>
+        <respuesta n="1">El cáncer de cuello uterino es causado principalmente por el VPH. Puede no
+            presentar síntomas al principio, pero puede causar sangrado anormal y dolor. Se puede
+            prevenir con la vacuna contra el VPH y también los exámenes de detección. Los factores
+            de riesgo incluyen el VPH, fumar y tener un sistema inmunitario debilitado.</respuesta>
+
+        <instrucciones n="2">Imagina que eres un/a enfermero/a en una escuela. Algunos padres de
+            familia no quieren vacunar a sus hijos contra el VPH. Explica por qué esta vacuna es
+            importante para sus hijos.</instrucciones>
+        <respuesta n="2">Señores, recomiendo esta vacuna. La vacuna contra el VPH es importante
+            porque ayuda a prevenir infecciones que pueden causar varios tipos de cáncer, incluyendo
+            el cáncer de cuello uterino. Vacunar a los hijos ayuda a proteger su salud y reduce el
+            riesgo de otras enfermedades en el futuro. </respuesta>
+
+
+        <instrucciones n="3">Explica con tus propias palabras cuales son los sintomas del cáncer de
+            prostata y cuales son los tratamientos.</instrucciones>
+        <respuesta n="3">El cáncer de próstata puede causar dificultad para orinar, necesidad
+            frecuente de orinar y dolor y ardor al orinar. Los tratamientos pueden incluir cirugía,
+            radioterapia, hormonoterapia y varios tipos de medicamentos. </respuesta>
+    </tarea>
+</raiz>

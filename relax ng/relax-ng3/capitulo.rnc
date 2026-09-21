@@ -1,0 +1,27 @@
+start = raiz
+raiz = element raiz {metadata,element capitulo {attribute id {text },text},tarea}
+metadata = element metadata {
+element nombre { text },
+element profesor { text },
+element clase {
+attribute id { text},text},fecha,
+element pagina {text}}
+fecha =
+    element fecha {
+        element dia { text },
+        element mes { text },
+        element año { text }}
+tarea =
+    element tarea {
+        instruccion,
+        respuesta,
+        instruccion,
+        respuesta,
+        instruccion,
+        respuesta}
+instruccion = element instrucciones {attribute n { "1" },text}
+respuesta = element respuesta {attribute n { "1" },text}
+instruccion = element instrucciones {attribute n { "2" },text}
+respuesta = element respuesta {attribute n { "2" },text}
+instruccion = element instrucciones {attribute n { "3" },text}
+respuesta = element respuesta {attribute n { "3" },text}
