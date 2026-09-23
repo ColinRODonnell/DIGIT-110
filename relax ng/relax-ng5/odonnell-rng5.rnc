@@ -1,0 +1,47 @@
+#13 critical errors 
+#First I changed the schema link to link to my own document -Colin
+start = xml
+xml = element xml {metadata, recipe}
+#1. added yield section from below 
+metadata = element metadata {title, author, editor, source, time, yield}
+title = element title {text}
+author = element author {id, text}
+editor = element editor {id, text}
+#2. {empty} --> {url, text}
+source = element source {url, text}
+time = element time {dur, text}
+#3. Missing yield tag. Added a yield tag. 
+yield = element yield {text}
+#4. the xml uses id not "is"
+id = attribute id {xsd:ID}
+url = attribute url {xsd:anyURI}
+dur = attribute dur {xsd:duration}
+
+recipe = element recipe {ingList, prep}
+ingList = element ingList {heading, ing+}
+heading = element heading {text}
+ing = element ing {id, quant?, unit?, mixed{alt*}}
+alt = element alt {quant, unit, text}
+quant = attribute quant {xsd:float}
+#5. Added "pint" 
+unit = attribute unit {"cup" | "T" | "t"  | "F" | "C" | "inch" | "pint"}
+#6. changed step? to step+ (? only allows 0-1)  
+prep = element prep {heading, step+}
+#7. stuck the * on the outside of brackets 
+#8. changed the {} to a () 
+step = element step {n, mixed { (combine | equip | equipUse | ingUse)* } }
+#9. added temp and size 
+equip = element equip {id, mixed{(equip | equipUse | setting | time | temp | size)*}}
+#10. added setting tag because it was not defined in schema
+setting = element setting {text}
+temp = element temp {quant, unit, text}
+size = element size {depth, unit, text}
+depth = attribute depth {xsd:float}
+equipUse = element equipUse {ref, mixed{(temp | size | equip | equipUse | ingUse | setting | time)*}}
+#11. added ? next to quant and unit
+ingUse = element ingUse {ref, quant?, unit?, text}
+ref = attribute ref {xsd:IDREFS}
+#12. combine contains a <ingUse> element for sugar
+combine = element combine {ref, mixed{ingUse*}}
+#13. xsd:date to xsd:integer. Values are 1,2,3 etc.
+n = attribute n {xsd:integer}
