@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Friendship Calendar Pages</title>
+            </titleStmt>
+            <publicationStmt>
+               <p>Friendship Calendar Co.</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>New Britain, Conn</p>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      
+      <text>
+         <body>
+            
+            <div n="1" type="calendar-page">
+               <head>March 12, 1909</head>
+               <p>Friday</p>
+               <figure>
+                  <graphic url="IMG_2050.jpg"></graphic>
+               </figure>
+               <p>Molly on snowshoes that Mr. Weir got.
+                  Pretty picture is it not?!</p>
+            </div>
+            
+            <div n="2" type="calendar-page">
+               <head>March 17, 1909</head>
+               <p>Wednesday</p>
+               <figure>
+                  <graphic url="IMG_2052.jpg"></graphic>
+               </figure>
+               <p>St. Patrick was a useful saint. 
+                  He frightend all the snakes away- 
+                  I wish he'd try his art on smoke around the Hammermill someday</p>
+            </div>
+            <note place="bottom" type="signature">
+               <unclear></unclear>
+            </note>
+         </body>
+      </text>
+      
+   </TEI>
