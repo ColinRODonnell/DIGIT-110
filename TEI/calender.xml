@@ -19,7 +19,7 @@
       
       <text>
          <body>
-            
+           <!-- Used <div> to separate both documents but include them both in the same TEI file - CRO.-->
             <div n="1" type="calendar-page">
                <head>March 12, 1909</head>
                <p>Friday</p>
