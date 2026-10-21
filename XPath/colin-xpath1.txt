@@ -1,0 +1,31 @@
+First, let's explore the CBML document in the Outline view in oXygen. (If you can't see the Outline view, go to Window >> Show View >> Outline.) Notice how the document is organized. Can you find the elements that hold a whole page, or "panel group" of the comic? The elements share this structure: <div type="panelGrp">. Write an XPath expression that finds all the elements that hold panel groups in this file.
+#1 //div[@type="panelGrp"]
+
+Use the expression that you wrote to answer 1, and "step down the tree" to find all the panels. Record your XPath expression. Notice that you need to use the cbml: prefix here. That is because these elements for panels are inside the CBML namespace.
+#2 //div[@type="panelGrp"] --------> //div[@type="panelGrp"]//cbml:panel
+
+Write an XPath that will return only the second panel group (literally the second whole page) in the document. You can use a position marker: [2]
+#3(1) //div[@type="panelGrp"][2]
+
+How many results do you return?
+#3(2) 2 results return. 
+
+Let's explore finding attributes. As you explore the XML, notice how characters are marked in the panels.
+Write an XPath expression that returns all the values of the @characters attribute.
+How many results do you see?
+#4 53 results return. 
+
+Okay, usually we work with attributes to help filter elements. Let's say we want to find all the panels in which only the narrator is represented? Use an XPath predicate with [ ] to help return the panels that are only representing the narrator.
+#5 //cbml:panel[@characters="#narrator"]
+
+How many <floatingText> elements do you see?
+#6(1) I see 41 results.
+
+What kind of content do you think is being described here? (Take a guess if you're not sure--I know you can't see the whole comic.)
+#6(2) I assume the floating text has to deal with text that is not apart of the main dialogue.
+
+How many panel elements contain floatingText elements? Write an XPath expression that uses a predicate [ ] to return only the <cbml:panel> elements that have a <floatingText> element inside.
+#6(3) I got an error, I think my expression was wrong.
+
+You can see the number of results in the return window, but let's try adding a function to your expression. Try applying the count() function to return a count of the number of panels that include floatingText.
+#6(4) Like before, my expression does not work no matter what I tried.

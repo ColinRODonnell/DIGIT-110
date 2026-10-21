@@ -1,0 +1,48 @@
+This is a big document, so the Outline view in oXygen might lag for you. Instead, we'll use the XPath window. Looking in the //body of the document, notice how the <div> elements divide it into sections. Write an XPath expression that returns a view of the <div> elements, and then filters it based on an attribute so you only return the div holding entries on historical persons in the document.
+#1 //body/div[@type="historical_people"] (I think this works, it only returns one thing though.
+
+2b. Find out all the child elements of the div that holds historical persons with XPath: Write an XPath that shows them to you even if you don't know/can't see the element names inside. (Hint: use the wildcard * character.)
+#2b //body/div[@type="historical_people"]/*
+
+2c. Switch this up to take a look inside a different <div> of your choice and return its children, whatever they are.
+#2c //body/div[@type="bibliography"]/*
+
+3a. Find the <list> element that holds all the animal entries. How many entries are inside that list? Record your XPath expression, and once again, try using the count() function to return a number.
+#3a count(//list/item) (I tried multiple things but they all either gave me 1 output or an error).
+
+3b. Okay,remove the count() function so you're returning the full sequence of elements on animals. Look up what the last() function does in our XPath tutorial, and apply it to your XPath: Which animal do you return?
+#3b //list/item[last()] (Even though the previous one does not work, this is how I would do it if it did).
+
+3c. Getting the hang of this? Write an XPath expression to return the 5th plant in the list of plants. Record your XPath and identify the plant.
+#3c //list[@sortKey="plants"]/item[5] (This returns Apple Tree :))
+
+3d. Okay, look up the position() function in our XPath tutorial. Notice how you can combine it with comparison operators to test whether nodes are in a position less than, less than or equal to, greater than, etc. a certain number. Following the examples in the tutuorial, write an XPath to return just the first 6 entries in the list of plants.
+#3d //list[@sortKey="plants"]/item[position() le 6]
+1. acacia
+2. aconite
+3. alder
+4. anemone
+5. apple_tree
+6. apricot_tree
+
+4. The following two XPath expressions return different results. Run each XPath expression, review the results, and explain what you think each expression is returning. What do you think the parentheses are doing? //person/occupation[1] (//person/occupation)[1]
+#4 Just like math I suppose that the parentheses group the entire XPath expression together, where [1] gets applied to everything.
+
+5a. This set of questions explores how we coded the <person> elements in the file. First, how many <person> elmeents are in the whole document?
+#5a //person (I got 1552 person elements).
+
+5b. Are all of the <person> elements coded with an @sex attribute? Use a predicate filter with [ ] to find out and record your expression here. How many results do you see?
+#5b //person[@sex] (this returned 1393 elements).
+
+5c. XPath can work like a calculator: When you return numbers, XPath can handle simple arithmetic operations like add, subtract, multiply (with an *) , and divide (with the word div). With this information:
+
+Write an XPath expression that returns the count() of person elements coded with @sex attributes, divided by the count() of all the person elements.
+Multiply that by 100 to see a percentage: About what percentage of person elements are coded with @sex attributes in this document?
+#5c count(//person[@sex]) div count(//person) * 100 (return the number of ~90). 
+
+5d. Write an XPath expression to find the number of <person> elements coded as female with @sex="f". Use the count() function and division in XPath once again to find out the proportion of persons coded female among all the persons coded with the @sex attributes.
+#5d //person[@sex="f"] (I got 414 people listed with the sex of "F").
+I tried to use the equation from before to divide the number of females by total persons, but it returned an error. I tried multiple things but I could not figure it out. This is what I had.   
+//person[@sex="f"] div count(//person)
+
+CRO
