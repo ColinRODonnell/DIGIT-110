@@ -1,0 +1,46 @@
+1. Let's start by exploring the count() function a little differently. Up to this point we have been counting by sending an entire XPath sequence to the function, like this: count(//div) or //div => count() But what if we want to get counts of the elements inside a list, so we can see which lists have the most entries? Try the following expressions, and then remove the count() function to see what nodes they are counting. Then, explain what is being counted in each expression: a. //div/count(*) b. //div/*/count(*) Why does this work? Think about where you position the count() in the XPath expression and why that matters.
+#1a This counts the child elements inside each <div> element.
+#1b This counts the child elements inside each child element of every <div>.
+Why? The position of count() matters because it determines which nodes are counted. in (A) its applied to each <div> rather than in (B) where the elements of <div> are counted. 
+
+2. Let's try using some new functions: min() and max(). These calculate the lowest and highest numerical values. To use min() or max(), you give the function a sequence of number values. Write an XPath expression that finds the maximum count of the items from our expression in 1b. Record your XPath expression, and what's the maximum number? Try it again on the min() and provide your XPath expression and the number.
+#2 max(//div/*/count(*)), I got a mazimum of 1112 values.
+   min(//div/*/count(*)), I got a minimum of 3 values. 
+   
+3. Okay, that's not super useful information if we can't see what list it's from. How would you return the <div> element that contains the maximum count of list items? Hint: You'll need to use a predicate filter [ ] to test the <div> elements and see which one has a count equal to the max number.
+#3 //div[count(*) = max(//div/*/count(*))], I used the max count from before.
+
+4. Okay, let's explore distinct-values(). This function removes duplicates from a sequence. We can use it on this file to return all the @type attributes on the <occupation> elements, and remove the duplicates. a. Write an XPath expression that shows us the distinct values of @type on the <occupation> elements, and record your expression here.
+#4a distinct-values(//occupation/@type)
+#4b count(distinct-values(//occupation/@type)), I believe this works. 
+
+5. We can write XPath to identify people (pull records of <person> elements) based on their nested <occupation> elements and the attributes marked on those elements. You will need to write XPath expressions with predicates, and sometimes nested predicates to answer the following questions:
+a. Write an XPath expression that returns all the <occupation type="artist"> elements.
+#5a //occupation[@type="artist"]
+
+b. Now, let’s find the full listings of the artists themselves: How would you return the <person> elements that contain nested <occupation type="artist"> markup?
+#5b //person[occupation[@type="artist"]], just go through //person. 
+
+c. Who are the women artists listed in our site index? The @sex attribute on the records "m", "f", or "u" recording conventional gender associations of the nineteenth century for "male", "female", or "undetermined". Write an XPath expression that returns <person> elements when the @sex value is "f" and the nested <occupation> inside is the @type value of "artist". (Hint: you can write two predicates [ ] side by side, or you can use the boolean and in a predicate.
+#5c //person[@sex="f"][occupation[@type="artist"]], just added @sex to the previous equation
+
+d. Who are the engravers in this site index? The @subtype attribute on the <occupation> element holds more specific occupation information. Write an XPath expression that finds all of the <person> elements with an occupation @subtype of "engraver".
+#5d //person[occupation[@subtype="engraver"]]
+
+e. Study how the birth and death dates are stored in the person entries. Sometimes when the specific birth or death date is unknown, we have simply encoded a year value. Build on your previous XPath expression to locate who in the site index was an engraver born in the year 1787. Record your expression. Who is the engraver?
+#5e //person[occupation[@subtype="engraver"]][birth[@when="1787"]], The engraver is "Finden_Wm"
+
+f. What XPath would return the birth dates of all the persons with occupation @subtype of "engraver" in the file?
+#5f //person[occupation[@subtype="engraver"]]/birth/@when 
+
+g. Use the simple map ! operator to return the string value of the birth dates you located. Now, send all those dates through the XPath sort() function to sort them from earliest to latest. And let's add one more function to the chain: What happens when you add min() to the end? Record your XPath expression. What is the earliest year in which an engraver listed in our file was born?
+#5g sort(//person[occupation[@subtype="engraver"]]/birth/@when), This didn't work, but this is what i tried.
+min(sort(//person[occupation[@subtype="engraver"]]/birth/@when)), That's how I would add min if it did work.
+
+6. So far we've been looking at XPath functions that make calculations over a sequence of more than one item. But some XPath functions are designed to test one node at a time and return information. Let's look at one of them. The name() function returns the name of a node, the name of any elements or attributes.
+a. Write an XPath that returns all the names of every element used in this file! (Hint: use the wildcard * to get all the elements down the tree.) Record your expression.
+#6a. //* ! name(.)
+
+b. Now, remove the duplicates from that list of names using distinct-values(). You can also send that result to count(). How many different element names are we using in this entire file?
+#6b count(distinct-values(//* ! name(.))), returns 78 different element names. 
+

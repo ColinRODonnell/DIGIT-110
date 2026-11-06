@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--ebb: commenting out missing schema for the purpose of the XSLT homework exercise
+    <?xml-model href="MontageofADreamDeferred.rnc" type="application/relax-ng-compact-syntax"?>-->
+<xml>
+   <text>
+        <!-- contributor: Amaya Willis -->
+      <pb n="218"/>
+      <poem xml:id="p-1">
+         <title/>
+         <stanza>
+            <lb n="1"/>
+            <lb n="2"/>
+         </stanza>
+         <stanza>
+            <lb n="3"/>
+            <lb n="4"/>
+            <lb n="5"/>
+            <lb n="6"/>
+         </stanza>
+      </poem>
+      <pb n="0"/>
+      <title>
+         <format wordType="caps" margin="leftCenter">MONTAGE OF A DREAM DEFERRED</format>
+      </title>
+      <pb n="221"/>
+      <poem xml:id="p-2">
+         <title>Dream Boogie</title>
+         <stanza>
+            <lb n="7"/>
+            <lb n="8"/>
+            <lb n="9"/>
+            <lb n="10"/>
+         </stanza>
+         <stanza>
+            <lb n="11"/>
+            <lb n="12"/>
+            <lb n="13"/>
+         </stanza>
+         <stanza>
+            <lb n="14"/>
+            <lb n="15"/>
+         </stanza>
+         <stanza>
+            <lb n="16"/>
+            <lb n="17"/>
+            <lb n="18"/>
+            <lb n="19"/>
+         </stanza>
+         <stanza>
+            <lb n="20"/>
+         </stanza>
+         <stanza>
+            <lb n="21"/>
+            <lb n="22"/>
+            <lb n="23"/>
+         </stanza>
+         <stanza>
+            <lb n="24"/>
+            <lb n="25"/>
+            <lb n="26"/>
+         </stanza>
+         <stanza>
+            <lb n="27"/>
+         </stanza>
+      </poem>
+      <pb n="222"/>
+      <poem xml:id="p-3">
+         <title>Parade</title>
+         <stanza>
+            <lb n="28"/>
+            <lb n="29"/>
+            <lb n="30"/>
+            <lb n="31"/>
+            <lb n="32"/>
+            <lb n="33"/>
+            <lb n="34"/>
+            <lb n="35"/>
+            <lb n="36"/>
+            <lb n="37"/>
+            <lb n="38"/>
+            <lb n="39"/>
+         </stanza>
+         <stanza>
+            <lb n="40"/>
+            <lb n="41"/>
+            <lb n="42"/>
+            <lb n="43"/>
+            <lb n="44"/>
+            <lb n="45"/>
+            <lb n="46"/>
+         </stanza>
+         <stanza>
+            <lb n="47"/>
+            <lb n="48"/>
+            <lb n="49"/>
+         </stanza>
+         <stanza>
+            <lb n="50"/>
+            <lb n="51"/>
+            <lb n="52"/>
+            <lb n="53"/>
+         </stanza>
+         <stanza>
+            <lb n="54"/>
+         </stanza>
+         <stanza>
+            <lb n="55"/>
+         </stanza>
+         <pb n="223"/>
+         <stanza>
+            <lb n="56"/>
+         </stanza>
+         <stanza>
+            <lb n="57"/>
+         </stanza>
+         <stanza>
+            <lb n="58"/>
+         </stanza>
+         <stanza>
+            <lb n="59"/>
+         </stanza>
+         <stanza>
+            <lb n="60"/>
+         </stanza>
+      </poem>
+      <!-- <margin> AW: something is written here, I can't tell what it says </margin> -->
+      <poem xml:id="p-4">
+         <title>Children's Rhymes</title>
+         <stanza>
+            <lb n="61"/>
+            <lb n="62"/>
+            <lb n="63"/>
+            <lb n="64"/>
+         </stanza>
+         <stanza>
+            <lb n="65"/>
+            <lb n="66"/>
+            <lb n="67"/>
+            <lb n="68"/>
+            <lb n="69"/>
+         </stanza>
+         <stanza>
+            <lb n="70"/>
+            <lb n="71"/>
+         </stanza>
+         <stanza>
+            <lb n="72"/>
+            <lb n="73"/>
+            <lb n="74"/>
+            <lb n="75"/>
+            <lb n="76"/>
+         </stanza>
+         <pb n="224"/>
+         <stanza>
+            <lb n="77"/>
+            <lb n="78"/>
+            <lb n="79"/>
+         </stanza>
+         <stanza>
+            <lb n="80"/>
+            <lb n="81"/>
+            <lb n="82"/>
+            <lb n="83"/>
+            <lb n="84"/>
+         </stanza>
+         <stanza>
+            <lb n="85"/>
+            <lb n="86"/>
+            <lb n="87"/>
+         </stanza>
+         <stanza>
+            <lb n="88"/>
+         </stanza>
+         <stanza>
+            <lb n="89"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-5">
+         <title>Sister</title>
+         <stanza>
+            <lb n="90"/>
+            <lb n="91"/>
+            <lb n="92"/>
+            <lb n="93"/>
+            <lb n="94"/>
+            <lb n="95"/>
+         </stanza>
+         <stanza>
+            <lb n="96"/>
+            <lb n="97"/>
+            <lb n="98"/>
+         </stanza>
+         <stanza>
+            <lb n="99"/>
+         </stanza>
+         <pb n="225"/>
+         <stanza>
+            <lb n="100"/>
+         </stanza>
+         <stanza>
+            <lb n="101"/>
+         </stanza>
+         <stanza>
+            <lb n="102"/>
+            <lb n="103"/>
+         </stanza>
+         <stanza>
+            <lb n="104"/>
+         </stanza>
+         <stanza>
+            <lb n="105"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-6">
+         <title>Preference</title>
+         <stanza>
+            <lb n="106"/>
+            <lb n="107"/>
+            <lb n="108"/>
+            <lb n="109"/>
+            <lb n="110"/>
+            <lb n="111"/>
+            <lb n="112"/>
+            <lb n="113"/>
+            <!--AW: Can I use the same element within itself? I had been using `<format wordType="caps>` for words in all capital letters, but in this case the word in caps is within an already formatted line.-->
+            <lb n="114"/>
+            <lb n="115"/>
+            <lb n="116"/>
+            <lb n="117"/>
+            <lb n="118"/>
+            <lb n="119"/>
+         </stanza>
+      </poem>
+      <pb n="226"/>
+      <poem xml:id="p-7">
+         <title>Necessity</title>
+         <stanza>
+            <lb n="120"/>
+            <lb n="121"/>
+            <lb n="122"/>
+            <lb n="123"/>
+            <lb n="124"/>
+            <lb n="125"/>
+            <lb n="126"/>
+            <lb n="127"/>
+            <lb n="128"/>
+            <lb n="129"/>
+            <lb n="130"/>
+            <lb n="131"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-8">
+         <title>Question</title>
+         <stanza>
+            <lb n="132"/>
+            <lb n="133"/>
+            <lb n="134"/>
+            <lb n="135"/>
+            <lb n="136"/>
+            <lb n="137"/>
+            <lb n="138"/>
+         </stanza>
+      </poem>
+      <pb n="227"/>
+      <poem xml:id="p-9">
+         <title>Buddy</title>
+         <stanza>
+            <lb n="139"/>
+            <lb n="140"/>
+            <lb n="141"/>
+            <lb n="142"/>
+            <lb n="143"/>
+            <lb n="144"/>
+            <lb n="145"/>
+            <lb n="146"/>
+            <lb n="147"/>
+            <lb n="148"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-10">
+         <title>Juke Box Love Song</title>
+         <stanza>
+            <lb n="149"/>
+            <lb n="150"/>
+            <lb n="151"/>
+            <lb n="152"/>
+            <lb n="153"/>
+            <lb n="154"/>
+            <lb n="155"/>
+            <lb n="156"/>
+            <lb n="157"/>
+            <lb n="158"/>
+            <lb n="159"/>
+            <lb n="160"/>
+         </stanza>
+      </poem>
+      <pb n="228"/>
+      <poem xml:id="p-11">
+         <title>Ultimatum</title>
+         <stanza>
+            <lb n="161"/>
+            <lb n="162"/>
+            <lb n="163"/>
+         </stanza>
+         <stanza>
+            <lb n="164"/>
+            <lb n="165"/>
+            <lb n="166"/>
+            <lb n="167"/>
+            <lb n="168"/>
+            <lb n="169"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-12">
+         <title>Warning</title>
+         <stanza>
+            <lb n="170"/>
+            <lb n="171"/>
+            <lb n="172"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-13">
+         <title>Croon</title>
+         <stanza>
+            <lb n="173"/>
+            <lb n="174"/>
+            <lb n="175"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-14">
+         <title>New Yorkers</title>
+         <stanza>
+            <lb n="176"/>
+            <lb n="177"/>
+            <lb n="178"/>
+         </stanza>
+         <pb n="229"/>
+         <stanza>
+            <lb n="179"/>
+            <lb n="180"/>
+            <lb n="181"/>
+            <lb n="182"/>
+            <lb n="183"/>
+            <lb n="184"/>
+            <lb n="185"/>
+            <lb n="186"/>
+            <lb n="187"/>
+            <lb n="188"/>
+            <lb n="189"/>
+         </stanza>
+         <stanza>
+            <lb n="190"/>
+            <lb n="191"/>
+            <lb n="192"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-15">
+         <title>Wonder</title>
+         <stanza>
+            <lb n="193"/>
+            <lb n="194"/>
+            <lb n="195"/>
+            <lb n="196"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-16">
+         <title>Easy Boogie</title>
+         <stanza>
+            <lb n="197"/>
+            <lb n="198"/>
+            <lb n="199"/>
+            <lb n="200"/>
+         </stanza>
+      </poem>
+      <!-- up till 229 -->
+      <!-- contributor: Daniel Hough -->
+      <pb n="230"/>
+      <poem xml:id="p-17">
+         <title>Movies</title>
+         <stanza>
+            <lb n="201"/>
+            <lb n="202"/>
+            <lb n="203"/>
+            <lb n="204"/>
+            <lb n="205"/>
+            <lb n="206"/>
+            <lb n="207"/>
+         </stanza>
+         <stanza>
+            <lb n="208"/>
+            <lb n="209"/>
+            <lb n="210"/>
+            <lb n="211"/>
+            <lb n="212"/>
+         </stanza>
+      </poem>
+      <pb n="231"/>
+      <poem xml:id="p-18">
+         <title>Tell Me</title>
+         <stanza>
+            <lb n="213"/>
+            <lb n="214"/>
+            <lb n="215"/>
+            <lb n="216"/>
+            <lb n="217"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-19">
+         <title>Not a Movie</title>
+         <stanza>
+            <lb n="218"/>
+            <lb n="219"/>
+            <lb n="220"/>
+            <lb n="221"/>
+            <lb n="222"/>
+            <lb n="223"/>
+            <lb n="224"/>
+            <lb n="225"/>
+         </stanza>
+         <stanza>
+            <lb n="226"/>
+            <lb n="227"/>
+            <lb n="228"/>
+            <lb n="229"/>
+            <lb n="230"/>
+            <lb n="231"/>
+            <lb n="232"/>
+         </stanza>
+      </poem>
+      <pb n="232"/>
+      <poem xml:id="p-20">
+         <title>Neon Signs</title>
+         <stanza>
+            <lb n="233"/>
+            <lb n="234"/>
+            <lb n="235"/>
+            <lb n="236"/>
+            <lb n="237"/>
+            <lb n="238"/>
+            <lb n="239"/>
+            <lb n="240"/>
+            <lb n="241"/>
+            <lb n="242"/>
+         </stanza>
+         <pb n="233"/>
+         <stanza>
+            <lb n="243"/>
+            <lb n="244"/>
+            <lb n="245"/>
+            <lb n="246"/>
+            <lb n="247"/>
+            <lb n="248"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-21">
+         <title>Numbers</title>
+         <stanza>
+            <lb n="249"/>
+            <lb n="250"/>
+            <lb n="251"/>
+         </stanza>
+         <stanza>
+            <lb n="252"/>
+            <lb n="253"/>
+         </stanza>
+         <stanza>
+            <lb n="254"/>
+            <lb n="255"/>
+            <lb n="256"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-22">
+         <title>What? So Soon!</title>
+         <stanza>
+            <lb n="257"/>
+            <lb n="258"/>
+         </stanza>
+         <pb n="234"/>
+         <stanza>
+            <lb n="259"/>
+            <lb n="260"/>
+            <lb n="261"/>
+            <lb n="262"/>
+         </stanza>
+         <stanza>
+            <lb n="263"/>
+            <lb n="264"/>
+         </stanza>
+         <stanza>
+            <lb n="265"/>
+            <lb n="266"/>
+            <lb n="267"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-23">
+         <title>Motto</title>
+         <stanza>
+            <lb n="268"/>
+            <lb n="269"/>
+            <lb n="270"/>
+            <lb n="271"/>
+         </stanza>
+         <stanza>
+            <lb n="272"/>
+            <lb n="273"/>
+            <lb n="274"/>
+            <lb n="275"/>
+            <lb n="276"/>
+         </stanza>
+      </poem>
+      <pb n="235"/>
+      <poem xml:id="p-24">
+         <title>Dead in There</title>
+         <stanza>
+            <lb n="277"/>
+            <lb n="278"/>
+            <lb n="279"/>
+            <lb n="280"/>
+            <lb n="281"/>
+         </stanza>
+         <stanza>
+            <lb n="282"/>
+            <lb n="283"/>
+            <lb n="284"/>
+            <lb n="285"/>
+         </stanza>
+         <stanza>
+            <lb n="286"/>
+            <lb n="287"/>
+            <lb n="288"/>
+            <lb n="289"/>
+         </stanza>
+         <stanza>
+            <lb n="290"/>
+            <lb n="291"/>
+            <lb n="292"/>
+            <lb n="293"/>
+         </stanza>
+         <stanza>
+            <lb n="294"/>
+            <lb n="295"/>
+            <lb n="296"/>
+            <lb n="297"/>
+            <lb n="298"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-25">
+         <title>Situation</title>
+         <stanza>
+            <lb n="299"/>
+            <lb n="300"/>
+            <lb n="301"/>
+            <lb n="302"/>
+         </stanza>
+      </poem>
+      <pb n="236"/>
+      <poem xml:id="p-26">
+         <title>Dancer</title>
+         <stanza>
+            <lb n="303"/>
+            <lb n="304"/>
+            <lb n="305"/>
+            <lb n="306"/>
+         </stanza>
+         <stanza>
+            <lb n="307"/>
+            <lb n="308"/>
+            <lb n="309"/>
+            <lb n="310"/>
+            <lb n="311"/>
+            <lb n="312"/>
+            <lb n="313"/>
+            <lb n="314"/>
+            <lb n="315"/>
+            <lb n="316"/>
+            <lb n="317"/>
+            <lb n="318"/>
+            <lb n="319"/>
+            <lb n="320"/>
+            <lb n="321"/>
+            <lb n="322"/>
+            <lb n="323"/>
+            <lb n="324"/>
+            <lb n="325"/>
+         </stanza>
+         <stanza>
+            <lb n="326"/>
+            <lb n="327"/>
+            <lb n="328"/>
+         </stanza>
+      </poem>
+      <pb n="237"/>
+      <poem xml:id="p-27">
+         <title>Advice</title>
+         <stanza>
+            <lb n="329"/>
+            <lb n="330"/>
+            <lb n="331"/>
+            <lb n="332"/>
+            <lb n="333"/>
+            <lb n="334"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-28">
+         <title>Green Memory</title>
+         <stanza>
+            <lb n="335"/>
+            <lb n="336"/>
+            <lb n="337"/>
+            <lb n="338"/>
+            <lb n="339"/>
+            <lb n="340"/>
+            <lb n="341"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-29">
+         <title>Wine-O</title>
+         <stanza>
+            <lb n="342"/>
+            <lb n="343"/>
+            <lb n="344"/>
+            <lb n="345"/>
+            <lb n="346"/>
+            <lb n="347"/>
+            <lb n="348"/>
+            <lb n="349"/>
+         </stanza>
+      </poem>
+      <pb n="238"/>
+      <poem xml:id="p-30">
+         <title>Relief</title>
+         <stanza>
+            <lb n="350"/>
+            <lb n="351"/>
+            <lb n="352"/>
+            <lb n="353"/>
+            <lb n="354"/>
+         </stanza>
+         <stanza>
+            <lb n="355"/>
+            <lb n="356"/>
+            <lb n="357"/>
+            <lb n="358"/>
+            <lb n="359"/>
+         </stanza>
+         <stanza>
+            <lb n="360"/>
+            <lb n="361"/>
+            <lb n="362"/>
+            <lb n="363"/>
+            <lb n="364"/>
+         </stanza>
+         <stanza>
+            <lb n="365"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-31">
+         <title>Ballad of the Landlord</title>
+         <stanza>
+            <lb n="366"/>
+            <lb n="367"/>
+            <lb n="368"/>
+            <lb n="369"/>
+         </stanza>
+         <stanza>
+            <lb n="370"/>
+            <lb n="371"/>
+            <lb n="372"/>
+            <lb n="373"/>
+         </stanza>
+         <pb n="239"/>
+         <stanza>
+            <lb n="374"/>
+            <lb n="375"/>
+            <lb n="376"/>
+            <lb n="377"/>
+         </stanza>
+         <stanza>
+            <lb n="378"/>
+            <lb n="379"/>
+            <lb n="380"/>
+            <lb n="381"/>
+         </stanza>
+         <stanza>
+            <lb n="382"/>
+            <lb n="383"/>
+            <lb n="384"/>
+            <lb n="385"/>
+         </stanza>
+         <stanza>
+            <lb n="386"/>
+            <lb n="387"/>
+            <lb n="388"/>
+            <lb n="389"/>
+         </stanza>
+         <stanza>
+            <lb n="390"/>
+            <lb n="391"/>
+            <lb n="392"/>
+         </stanza>
+         <stanza>
+            <lb n="393"/>
+            <lb n="394"/>
+            <lb n="395"/>
+         </stanza>
+         <stanza>
+            <lb n="396"/>
+            <lb n="397"/>
+            <lb n="398"/>
+         </stanza>
+      </poem>
+      <pb n="240"/>
+      <poem xml:id="p-32">
+         <title>Corner Meeting</title>
+         <stanza>
+            <lb n="399"/>
+            <lb n="400"/>
+            <lb n="401"/>
+            <lb n="402"/>
+            <lb n="403"/>
+            <lb n="404"/>
+            <lb n="405"/>
+            <lb n="406"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-33">
+         <title>Projection</title>
+         <stanza>
+            <lb n="407"/>
+            <lb n="408"/>
+            <lb n="409"/>
+            <lb n="410"/>
+            <lb n="411"/>
+            <lb n="412"/>
+            <lb n="413"/>
+            <lb n="414"/>
+            <lb n="415"/>
+            <lb n="416"/>
+            <lb n="417"/>
+            <lb n="418"/>
+            <lb n="419"/>
+            <lb n="420"/>
+            <lb n="421"/>
+            <lb n="422"/>
+            <lb n="423"/>
+            <lb n="424"/>
+            <lb n="425"/>
+            <lb n="426"/>
+         </stanza>
+         <pb n="241"/>
+         <stanza>
+            <lb n="427"/>
+            <lb n="428"/>
+            <lb n="429"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-34">
+         <title>Flatted Fifths</title>
+         <stanza>
+            <lb n="430"/>
+            <lb n="431"/>
+         </stanza>
+         <stanza>
+            <lb n="432"/>
+            <lb n="433"/>
+            <lb n="434"/>
+            <lb n="435"/>
+            <lb n="436"/>
+            <lb n="437"/>
+            <lb n="438"/>
+            <lb n="439"/>
+            <lb n="440"/>
+            <lb n="441"/>
+            <lb n="442"/>
+            <lb n="443"/>
+         </stanza>
+         <stanza>
+            <lb n="444"/>
+            <lb n="445"/>
+            <lb n="446"/>
+            <lb n="447"/>
+            <lb n="448"/>
+         </stanza>
+      </poem>
+      <!-- up to 237 -->
+      <!-- contributor: Barbara Cesser -->
+      <pb n="242"/>
+      <poem xml:id="p-35">
+         <title>Tomorrow</title>
+         <stanza>
+            <lb n="449"/>
+            <lb n="450"/>
+         </stanza>
+         <stanza>
+            <lb n="451"/>
+            <lb n="452"/>
+            <lb n="453"/>
+         </stanza>
+         <stanza>
+            <lb n="454"/>
+            <lb n="455"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-36">
+         <title>Mellow</title>
+         <stanza>
+            <lb n="456"/>
+            <lb n="457"/>
+            <lb n="458"/>
+            <lb n="459"/>
+            <lb n="460"/>
+            <lb n="461"/>
+            <lb n="462"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-37">
+         <title>Live and Let Live</title>
+         <stanza>
+            <lb n="463"/>
+            <lb n="464"/>
+            <lb n="465"/>
+            <lb n="466"/>
+            <lb n="467"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-38">
+         <title>Gauge</title>
+         <stanza>
+            <lb n="468"/>
+            <lb n="469"/>
+            <lb n="470"/>
+            <lb n="471"/>
+            <lb n="472"/>
+         </stanza>
+      </poem>
+      <pb n="243"/>
+      <poem xml:id="p-39">
+         <title>Bar</title>
+         <stanza>
+            <lb n="473"/>
+            <lb n="474"/>
+            <lb n="475"/>
+            <lb n="476"/>
+            <lb n="477"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-40">
+         <title>Cafe: 3 A.M.</title>
+         <stanza>
+            <lb n="478"/>
+            <lb n="479"/>
+            <lb n="480"/>
+            <lb n="481"/>
+            <lb n="482"/>
+            <lb n="483"/>
+            <lb n="484"/>
+            <lb n="485"/>
+         </stanza>
+         <stanza>
+            <lb n="486"/>
+            <lb n="487"/>
+            <lb n="488"/>
+         </stanza>
+      </poem>
+      <!-- up to 243 -->
+      <!-- contributor: Jacqueline Chan -->
+      <pb n="254"/>
+      <pb n="254"/>
+      <poem xml:id="p-41">
+         <title> Request </title>
+         <stanza>
+            <lb n="489"/>
+            <lb n="490"/>
+            <lb n="491"/>
+            <lb n="492"/>
+            <lb n="493"/>
+            <lb n="494"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-42">
+         <title>Shame on You</title>
+         <stanza>
+            <lb n="495"/>
+            <lb n="496"/>
+            <lb n="497"/>
+            <lb n="498"/>
+            <lb n="499"/>
+         </stanza>
+         <stanza>
+            <lb n="500"/>
+            <lb n="501"/>
+         </stanza>
+         <pb n="255"/>
+         <stanza>
+            <lb n="502"/>
+            <lb n="503"/>
+         </stanza>
+         <stanza>
+            <lb n="504"/>
+            <lb n="505"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-43">
+         <title> World War II</title>
+         <stanza>
+            <lb n="506"/>
+            <lb n="507"/>
+            <lb n="508"/>
+            <lb n="509"/>
+            <lb n="510"/>
+            <lb n="511"/>
+            <lb n="512"/>
+            <lb n="513"/>
+         </stanza>
+         <stanza>
+            <lb n="514"/>
+            <lb n="515"/>
+            <lb n="516"/>
+            <lb n="517"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-44">
+         <title>Mystery</title>
+         <stanza>
+            <lb n="518"/>
+            <lb n="519"/>
+            <lb n="520"/>
+            <lb n="521"/>
+         </stanza>
+         <pb n="256"/>
+         <stanza>
+            <lb n="522"/>
+            <lb n="523"/>
+            <lb n="524"/>
+            <lb n="525"/>
+         </stanza>
+         <stanza>
+            <lb n="526"/>
+            <lb n="527"/>
+         </stanza>
+         <stanza>
+            <lb n="528"/>
+            <lb n="529"/>
+            <lb n="530"/>
+            <lb n="531"/>
+            <lb n="532"/>
+            <lb n="533"/>
+         </stanza>
+         <stanza>
+            <lb n="534"/>
+            <lb n="535"/>
+            <lb n="536"/>
+            <lb n="537"/>
+         </stanza>
+         <stanza>
+            <lb n="538"/>
+            <lb n="539"/>
+            <lb n="540"/>
+            <lb n="541"/>
+         </stanza>
+         <stanza>
+            <lb n="542"/>
+            <lb n="543"/>
+            <lb n="544"/>
+            <lb n="545"/>
+         </stanza>
+      </poem>
+      <pb n="257"/>
+      <poem xml:id="p-45">
+         <title>Sliver of Sermon</title>
+         <stanza>
+            <lb n="546"/>
+            <lb n="547"/>
+            <lb n="548"/>
+            <lb n="549"/>
+            <lb n="550"/>
+            <lb n="551"/>
+         </stanza>
+         <stanza>
+            <lb n="552"/>
+            <lb n="553"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-46">
+         <title>Testimonial</title>
+         <stanza>
+            <lb n="554"/>
+            <lb n="555"/>
+            <lb n="556"/>
+            <lb n="557"/>
+         </stanza>
+         <stanza>
+            <lb n="558"/>
+            <lb n="559"/>
+            <lb n="560"/>
+            <lb n="561"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-47">
+         <title>Passing</title>
+         <stanza>
+            <lb n="562"/>
+            <lb n="563"/>
+            <lb n="564"/>
+            <lb n="565"/>
+            <lb n="566"/>
+         </stanza>
+         <pb n="258"/>
+         <stanza>
+            <lb n="567"/>
+            <lb n="568"/>
+            <lb n="569"/>
+            <lb n="570"/>
+            <lb n="571"/>
+            <lb n="572"/>
+            <lb n="573"/>
+            <lb n="574"/>
+            <lb n="575"/>
+            <lb n="576"/>
+            <lb n="577"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-48">
+         <title>Nightmare Boogie</title>
+         <stanza>
+            <lb n="578"/>
+            <lb n="579"/>
+            <lb n="580"/>
+            <lb n="581"/>
+            <lb n="582"/>
+            <lb n="583"/>
+            <lb n="584"/>
+            <lb n="585"/>
+            <lb n="586"/>
+            <lb n="587"/>
+            <lb n="588"/>
+            <lb n="589"/>
+         </stanza>
+      </poem>
+      <pb n="259"/>
+      <poem xml:id="p-49">
+         <title>Sunday by the Combination</title>
+         <stanza>
+            <lb n="590"/>
+            <lb n="591"/>
+         </stanza>
+         <stanza>
+            <lb n="592"/>
+            <lb n="593"/>
+            <lb n="594"/>
+         </stanza>
+         <stanza>
+            <lb n="595"/>
+            <lb n="596"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-50">
+         <title>
+            <format wordType="circled">Casualty</format>
+         </title>
+         <stanza>
+            <lb n="597"/>
+            <lb n="598"/>
+            <lb n="599"/>
+            <lb n="600"/>
+         </stanza>
+         <stanza>
+            <lb n="601"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-51">
+         <title>Night Funeral in Harlem</title>
+         <stanza>
+            <lb n="602"/>
+            <lb n="603"/>
+         </stanza>
+         <stanza>
+            <lb n="604"/>
+            <lb n="605"/>
+         </stanza>
+         <stanza>
+            <lb n="606"/>
+            <lb n="607"/>
+         </stanza>
+         <pb n="260"/>
+         <stanza>
+            <lb n="608"/>
+            <lb n="609"/>
+         </stanza>
+         <stanza>
+            <lb n="610"/>
+            <lb n="611"/>
+         </stanza>
+         <stanza>
+            <lb n="612"/>
+            <lb n="613"/>
+         </stanza>
+         <stanza>
+            <lb n="614"/>
+            <lb n="615"/>
+            <lb n="616"/>
+            <lb n="617"/>
+         </stanza>
+         <stanza>
+            <lb n="618"/>
+            <lb n="619"/>
+         </stanza>
+         <stanza>
+            <lb n="620"/>
+            <lb n="621"/>
+         </stanza>
+         <stanza>
+            <lb n="622"/>
+            <lb n="623"/>
+            <lb n="624"/>
+            <lb n="625"/>
+         </stanza>
+         <stanza>
+            <lb n="626"/>
+            <lb n="627"/>
+         </stanza>
+         <stanza>
+            <lb n="628"/>
+            <lb n="629"/>
+            <lb n="630"/>
+            <lb n="631"/>
+            <lb n="632"/>
+         </stanza>
+         <pb n="261"/>
+         <stanza>
+            <lb n="633"/>
+            <lb n="634"/>
+            <lb n="635"/>
+            <lb n="636"/>
+            <lb n="637"/>
+            <lb n="638"/>
+            <lb n="639"/>
+            <lb n="640"/>
+            <lb n="641"/>
+            <lb n="642"/>
+            <lb n="643"/>
+            <lb n="644"/>
+            <lb n="645"/>
+            <lb n="646"/>
+            <lb n="647"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-52">
+         <title>Blues at Dawn</title>
+         <stanza>
+            <lb n="648"/>
+            <lb n="649"/>
+            <lb n="650"/>
+            <lb n="651"/>
+            <lb n="652"/>
+         </stanza>
+         <stanza>
+            <lb n="653"/>
+            <lb n="654"/>
+            <lb n="655"/>
+            <lb n="656"/>
+            <lb n="657"/>
+         </stanza>
+      </poem>
+      <pb n="262"/>
+      <poem xml:id="p-53">
+         <title>Dime</title>
+         <stanza>
+            <lb n="658"/>
+         </stanza>
+         <stanza>
+            <lb n="659"/>
+         </stanza>
+         <stanza>
+            <lb n="660"/>
+         </stanza>
+         <stanza>
+            <lb n="661"/>
+            <lb n="662"/>
+         </stanza>
+         <stanza>
+            <lb n="663"/>
+         </stanza>
+         <stanza>
+            <lb n="664"/>
+            <lb n="665"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-54">
+         <title>Argument</title>
+         <stanza>
+            <lb n="666"/>
+            <lb n="667"/>
+            <lb n="668"/>
+         </stanza>
+         <stanza>
+            <lb n="669"/>
+         </stanza>
+         <stanza>
+            <lb n="670"/>
+         </stanza>
+         <stanza>
+            <lb n="671"/>
+            <lb n="672"/>
+            <lb n="673"/>
+            <lb n="674"/>
+            <lb n="675"/>
+         </stanza>
+      </poem>
+      <pb n="263"/>
+      <poem xml:id="p-55">
+         <title>Neighbor</title>
+         <stanza>
+            <lb n="676"/>
+            <lb n="677"/>
+            <lb n="678"/>
+            <lb n="679"/>
+            <lb n="680"/>
+            <lb n="681"/>
+            <lb n="682"/>
+            <lb n="683"/>
+            <lb n="684"/>
+            <lb n="685"/>
+         </stanza>
+         <stanza>
+            <lb n="686"/>
+            <lb n="687"/>
+         </stanza>
+         <stanza>
+            <lb n="688"/>
+            <lb n="689"/>
+            <lb n="690"/>
+            <lb n="691"/>
+            <lb n="692"/>
+            <lb n="693"/>
+         </stanza>
+         <stanza>
+            <lb n="694"/>
+            <lb n="695"/>
+         </stanza>
+         <stanza>
+            <lb n="696"/>
+            <lb n="697"/>
+            <lb n="698"/>
+            <lb n="699"/>
+         </stanza>
+      </poem>
+      <pb n="264"/>
+      <poem xml:id="p-56">
+         <title>Evening Song</title>
+         <stanza>
+            <lb n="700"/>
+            <lb n="701"/>
+            <lb n="702"/>
+            <lb n="703"/>
+         </stanza>
+         <stanza>
+            <lb n="704"/>
+            <lb n="705"/>
+            <lb n="706"/>
+            <lb n="707"/>
+         </stanza>
+         <stanza>
+            <lb n="708"/>
+            <lb n="709"/>
+            <lb n="710"/>
+            <lb n="711"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-57">
+         <title>Chord</title>
+         <stanza>
+            <lb n="712"/>
+            <lb n="713"/>
+            <lb n="714"/>
+            <lb n="715"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-58">
+         <title>Fact</title>
+         <stanza>
+            <lb n="716"/>
+            <lb n="717"/>
+            <lb n="718"/>
+            <lb n="719"/>
+         </stanza>
+      </poem>
+      <pb n="265"/>
+      <poem xml:id="p-59">
+         <title>Joe Louis</title>
+         <stanza>
+            <lb n="720"/>
+            <lb n="721"/>
+            <lb n="722"/>
+            <lb n="723"/>
+         </stanza>
+         <stanza>
+            <lb n="724"/>
+            <lb n="725"/>
+            <lb n="726"/>
+         </stanza>
+         <stanza>
+            <lb n="727"/>
+            <lb n="728"/>
+            <lb n="729"/>
+            <lb n="730"/>
+            <lb n="731"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-60">
+         <title>Subway Rush Hour</title>
+         <stanza>
+            <lb n="732"/>
+            <lb n="733"/>
+            <lb n="734"/>
+            <lb n="735"/>
+            <lb n="736"/>
+            <lb n="737"/>
+            <lb n="738"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-61">
+         <title>Brothers</title>
+         <stanza>
+            <lb n="739"/>
+            <lb n="740"/>
+            <lb n="741"/>
+         </stanza>
+         <pb n="266"/>
+         <stanza>
+            <lb n="742"/>
+            <lb n="743"/>
+            <lb n="744"/>
+         </stanza>
+         <stanza>
+            <lb n="745"/>
+         </stanza>
+      </poem>
+      <!-- up to 259 -->
+      <!-- contributor: Aidan Olsen -->
+      <pb n="266"/>
+      <poem xml:id="p-62">
+         <title>Likewise</title>
+         <stanza>
+            <lb n="746"/>
+         </stanza>
+         <stanza>
+            <lb n="747"/>
+            <lb n="748"/>
+            <lb n="749"/>
+            <lb n="750"/>
+            <lb n="751"/>
+            <lb n="752"/>
+         </stanza>
+         <stanza>
+            <lb n="753"/>
+            <lb n="754"/>
+            <lb n="755"/>
+            <lb n="756"/>
+         </stanza>
+         <stanza>
+            <lb n="757"/>
+            <lb n="758"/>
+            <lb n="759"/>
+            <lb n="760"/>
+            <lb n="761"/>
+            <lb n="762"/>
+            <lb n="763"/>
+            <lb n="764"/>
+            <lb n="765"/>
+            <lb n="766"/>
+         </stanza>
+         <pb n="267"/>
+         <stanza>
+            <lb n="767"/>
+            <lb n="768"/>
+            <lb n="769"/>
+            <lb n="770"/>
+         </stanza>
+         <stanza>
+            <lb n="771"/>
+            <lb n="772"/>
+            <lb n="773"/>
+            <lb n="774"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-63">
+         <title>Silver</title>
+         <stanza>
+            <lb n="775"/>
+            <lb n="776"/>
+            <lb n="777"/>
+            <lb n="778"/>
+            <lb n="779"/>
+            <lb n="780"/>
+            <lb n="781"/>
+            <lb n="782"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-64">
+         <title>Hope</title>
+         <stanza>
+            <lb n="783"/>
+            <lb n="784"/>
+            <lb n="785"/>
+            <lb n="786"/>
+         </stanza>
+      </poem>
+      <pb n="268"/>
+      <poem xml:id="p-65">
+         <title>Dream Boogie: Variation</title>
+         <stanza>
+            <lb n="787"/>
+            <lb n="788"/>
+            <lb n="789"/>
+            <lb n="790"/>
+            <lb n="791"/>
+            <lb n="792"/>
+            <lb n="793"/>
+            <lb n="794"/>
+            <lb n="795"/>
+            <lb n="796"/>
+            <lb n="797"/>
+            <lb n="798"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-66">
+         <title>Harlem</title>
+         <stanza>
+            <lb n="799"/>
+         </stanza>
+         <stanza>
+            <lb n="800"/>
+            <lb n="801"/>
+            <lb n="802"/>
+            <lb n="803"/>
+            <lb n="804"/>
+            <lb n="805"/>
+            <lb n="806"/>
+         </stanza>
+         <stanza>
+            <lb n="807"/>
+            <lb n="808"/>
+         </stanza>
+         <stanza>
+            <lb n="809"/>
+         </stanza>
+      </poem>
+      <pb n="269"/>
+      <poem xml:id="p-67">
+         <title>Good Morning</title>
+         <stanza>
+            <lb n="810"/>
+            <lb n="811"/>
+            <lb n="812"/>
+            <lb n="813"/>
+            <lb n="814"/>
+            <lb n="815"/>
+            <lb n="816"/>
+            <lb n="817"/>
+            <lb n="818"/>
+            <lb n="819"/>
+            <lb n="820"/>
+            <lb n="821"/>
+            <lb n="822"/>
+            <lb n="823"/>
+            <lb n="824"/>
+            <lb n="825"/>
+            <lb n="826"/>
+         </stanza>
+         <stanza>
+            <lb n="827"/>
+            <lb n="828"/>
+            <lb n="829"/>
+         </stanza>
+         <stanza>
+            <lb n="830"/>
+            <lb n="831"/>
+            <lb n="832"/>
+            <lb n="833"/>
+            <lb n="834"/>
+            <lb n="835"/>
+            <lb n="836"/>
+         </stanza>
+         <stanza>
+            <lb n="837"/>
+            <lb n="838"/>
+         </stanza>
+         <stanza>
+            <lb n="839"/>
+         </stanza>
+      </poem>
+      <pb n="270"/>
+      <poem xml:id="p-68">
+         <title>Same in Blues</title>
+         <stanza>
+            <lb n="840"/>
+            <lb n="841"/>
+            <lb n="842"/>
+            <lb n="843"/>
+         </stanza>
+         <stanza>
+            <lb n="844"/>
+            <lb n="845"/>
+            <lb n="846"/>
+         </stanza>
+         <stanza>
+            <lb n="847"/>
+            <lb n="848"/>
+            <lb n="849"/>
+            <lb n="850"/>
+         </stanza>
+         <stanza>
+            <lb n="851"/>
+            <lb n="852"/>
+            <lb n="853"/>
+         </stanza>
+         <stanza>
+            <lb n="854"/>
+            <lb n="855"/>
+            <lb n="856"/>
+            <lb n="857"/>
+         </stanza>
+         <stanza>
+            <lb n="858"/>
+            <lb n="859"/>
+            <lb n="860"/>
+         </stanza>
+         <stanza>
+            <lb n="861"/>
+            <lb n="862"/>
+            <lb n="863"/>
+            <lb n="864"/>
+         </stanza>
+         <pb n="271"/>
+         <stanza>
+            <lb n="865"/>
+            <lb n="866"/>
+            <lb n="867"/>
+         </stanza>
+         <stanza>
+            <lb n="868"/>
+            <lb n="869"/>
+            <lb n="870"/>
+            <lb n="871"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-69">
+         <title>Comment on Curb</title>
+         <stanza>
+            <lb n="872"/>
+            <lb n="873"/>
+            <lb n="874"/>
+            <lb n="875"/>
+         </stanza>
+         <stanza>
+            <lb n="876"/>
+            <lb n="877"/>
+            <lb n="878"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-70">
+         <title>Letter</title>
+         <stanza>
+            <lb n="879"/>
+            <lb n="880"/>
+            <lb n="881"/>
+            <lb n="882"/>
+            <lb n="883"/>
+            <lb n="884"/>
+            <lb n="885"/>
+         </stanza>
+         <pb n="272"/>
+         <stanza>
+            <lb n="886"/>
+            <lb n="887"/>
+            <lb n="888"/>
+            <lb n="889"/>
+            <lb n="890"/>
+         </stanza>
+      </poem>
+      <poem xml:id="p-71">
+         <title>Island</title>
+         <stanza>
+            <lb n="891"/>
+            <lb n="892"/>
+            <lb n="893"/>
+            <lb n="894"/>
+         </stanza>
+         <stanza>
+            <lb n="895"/>
+            <lb n="896"/>
+            <lb n="897"/>
+            <lb n="898"/>
+         </stanza>
+         <stanza>
+            <lb n="899"/>
+            <lb n="900"/>
+         </stanza>
+         <stanza>
+            <lb n="901"/>
+         </stanza>
+         <stanza>
+            <lb n="902"/>
+         </stanza>
+      </poem>
+      <!--AMO: page is un-numbered but IS 273-->
+      <pb n="273"/>
+      <title>
+         <format wordType="cap">WORDS LIKE FREEDOM</format>
+      </title>
+      <!-- up to 268 -->
+   </text>
+</xml>

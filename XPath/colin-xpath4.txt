@@ -1,0 +1,41 @@
+1. Write an XPath to find all the @characters attributes on the <cbml:panel> elements and take distinct-values(). Inspect the results. Is this really removing all the duplicates? (Notice how the values are coded.)
+#1 distinct-values(//cbml:panel/@characters), No it does not remove duplicates, there is small differences between them that makes them distinct. 
+
+2. Let's try the tokenize function to isolate each value. This is one of the "string functions" that needs to look inside each node one at a time, and it needs to be constructed carefully to indicate what it is working on. Tokenize is designed to split values on (by default) spaces, and create a sequence out of them. Let's try it here. Step-by-step:
+
+To write this, you have to tell tokenize(.) to process just one thing, and usually it's the self node that you navigate to. In this case, that's each @characters attribute.
+Take your expression from 1. Remove distinct-values().
+At the end of the expression you can use the simple map ! operator to say, work on these nodes one at a time.
+Then add the tokenize(.) function with a dot inside like that. The dot indicates that you're working on the self axis.
+#2a //cbml:panel/@characters ! tokenize(.)
+(Unlike the name() function, the string functions like tokenize(.) require the dot notation or a specific node inside the parentheses to process)
+Take a look at your results. THEN, alter your XPath to return the distinct-values. Record the expression. (Better, yes?)
+#2b distinct-values(//cbml:panel/@characters ! tokenize(.))
+#2c Yes, this is better because tokenize(.) does something with the spaces to where distinct values will actually remove the duplicates. 
+
+3. Let's try out the contains() function. This handy function lets you test nodes to see whether they contain a literal string of characters.
+3a. Armed with this information, use the contains() function to try finding all the panels that contain "drkelly" in the @characters value. Record your expression. How many do you find?
+#3a //cbml:panel[contains(@characters, 'drkelly')], there are 5 panels that give "Dr. Kelly"
+3b. Try one other application of contains(), or its cousins starts-with() or ends-with() (your choice of elements or attributes--anything you want to find out from this file), and record your expression and what you find out.
+//cbml:panel[contains(@characters, 'snake')], i found 16 snakes! 
+
+4. Now let's look at the string-length() function. This handy function measures one string at a time. Let's try applying it to the speech balloons in the CBML file to find out who has the longest and shortest speech in this comic.
+
+Step down to find all the <cbml:balloon> elements.
+Use the simple map ! operator to take each balloon one at a time, and apply string-length() to it. Record your expression.
+4a. How long is the longest speech? Record an XPath expression that will give this value. Hint: Use a function we applied in XPath Ex 2.
+#4a max(//cbml:balloon ! string-length(.)), The longest balloon thing is 215 words. 
+
+4b. Again applying what you learned from XPath Exercise 2, how will you identify the character who delivers the longest speech? Write an XPath to filter the nodes based on the longest speech and tell you who is speaking.
+//cbml:balloon[string-length(.) = max(//cbml:balloon ! string-length(.))]/@who, I had to look up the @who because I was not aware of it, but it returned Kaliman as the speaker.
+
+4c. Okay, if you go that, change one little thing in your expression so it tells you who delivers the shortest speech in this comic.(Record your XPath expression.) What is the character saying in the shortest speech?
+//cbml:balloon[string-length(.) = min(//cbml:balloon ! string-length(.))]/@who, all I had to do was switch max to min. It returned Kaliman also. 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. Halloween special!
+5a. Write an XPath that uses predicates and functions to tell you which <cbml:panel> in this comic book contains a <note> that contains the word "skull". Record your expression.
+#5a //cbml:panel[note[contains(., 'skull')]], the . catches everything just like regex. 
+5b. Okay, we have one more thing to tell you about the dot . notation. Sometimes you need to filter your XPath nodes based on something about their deep descendants. When we do this, we need to use the . inside the predicate to indicate that XPath should filter based on the current context. Try these two expressions, and do your best to explain why they return different results: How is the dot notation changing the expression?
+//div[//cbml:balloon[contains(., 'NO')]]
+//div[.//cbml:balloon[contains(., 'NO')]]
+#5b The only difference is the "." The dot makes it search in the <div> containing cbml:balloon rather than the whole document. 
