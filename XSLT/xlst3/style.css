@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/*Specifically changes the colores of the quest items - CRO*/
+.quest-event {
+    color: red;
+    font-weight: bold;
+}
+
+.quest-item {
+    color: goldenrod;
+    font-style: italic;
+}
+
+.character {
+    color: blue;
+    font-weight: bold;
+}
+
+.epithet {
+    color: purple;
+    font-style: italic;
+}
+
+.faction {
+    color: green;
+    font-weight: bold;
+}
+
+.location {
+    color: brown;
+    font-style: italic;
+}
+
+/* Faction alignment */
+.faction.good {
+    color: green;
+}
+
+.faction.evil {
+    color: red;
+}
+
+.faction.neutral {
+    color: gray;
+}
